@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Početna</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+
+
+
+
+    <!-- Učitavanje Google fontova -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700">
+
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body class="m-0 background-image" >
+
+    <!-- Navi Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light glass-navbar m-0">
+        <div class="container-fluid justify-content-center p-2">
+        
+            <a class="navbar-brand ps-3 pt-3 pb-3 logo-name" href="index.html" style="color: #f7f7f7;">
+                Auto Centar Adamović
+            </a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="padding-left: 125px ; padding-right: 125px;">
+                <ul class="navbar-nav" >
+                    <li class="nav-item text-center m-3">
+                        <a class="nav-link" href="#oNamaPage" id="oNamaLink" style=" color: #f7f7f7; font-size: 17px; font-weight: 500;">Početna</a>
+                    </li>
+                    <li class="nav-item text-center m-3">
+                        <a class="nav-link" href="#uslugePage" id="uslugeLink" style=" color: #f7f7f7; font-size: 17px; font-weight: 500;">Usluge</a>
+                    </li>
+                    <li class="nav-item text-center m-3">
+                        <a class="nav-link" href="#vodicPage" id="vodicLink" style=" color: #f7f7f7; font-size: 17px; font-weight: 500;">Vodič za pneumatike</a>
+                    </li>
+                    <li class="nav-item text-center m-3">
+                        <a class="nav-link" href="#kontaktPage" id="kontaktLink" style=" color: #f7f7f7; font-size: 17px; font-weight: 500;">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+
+
+    <div  class="m-0" style="padding-top: 50px; padding-bottom: 100px;">
+
+        <!-- O nama  -->
+        <div class="container"  id="oNamaPage" style="margin-top: 75px;">
+            <div class="container-fluid p-0" style="color: #f7f7f7;">
+                <div class="glass-lighter-top p-5" style="box-shadow: 0px 1px 10px 0px #161616; color: #f7f7f7;">
+                    <h3 class="text-center" style="font-weight: 600;">O nama</h3>
+                    <p class="pt-3 text-center">
+                        Naša priča započinje davne 2001. godine pod nazivom S.R. Adamović, ali od 2005. godine nosimo ponosni naziv - <strong>Auto Centar Adamović</strong>. <br>
+                        S vremenom, izgradili smo snažan ugled i zadobili bezgranično poverenje naših klijenata, čime smo postali Istočni regionalni lider u prodaji <strong>putničkih guma</strong>.
+                    </p>
+
+                    <p class ="text-center">
+                        Kao ponosni partner prestižnog proizvođača guma <strong>Goodyear-a</strong>, nudimo vam širok izbor najkvalitetnijih guma na tržištu. Naša profesionalna ekipa stručnjaka,<br>sa dugogodišnjim iskustvom, stoji vam na raspolaganju za savete i podršku pri odabiru savršenih guma za vaše vozilo.
+                    </p>
+
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="box-shadow: 0px 1px 10px 0px #161616;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="../slike/1__resized.jpg" class="d-block w-100 h-auto" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="../slike/3_resized.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="../slike/2_resized.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-lighter-bottom p-5" style="box-shadow: 0px 1px 10px 0px #161616; color: #f7f7f7;">
+                    <p class ="text-center mt-2">
+                        Od juna 2011. godine, možete nas pronaći na novoj, modernoj lokaciji - <strong>Miomira Radosavljevica Pikija 10</strong>. Kada se odlučite za nas, očekujte samo najbolje.<br> Naša vrhunska usluga, širok izbor proizvoda i stručnost našeg tima će vam osigurati potpuno zadovoljstvo i mirnu vožnju.
+                    </p>
+                    <p class ="text-center">
+                        Nemojte gubiti vreme, posetite nas i doživite <strong>Auto Centar Adamović</strong> - mesto gde snaga, strast i kvalitet automobila žive u savršenom skladu.                            
+                    </p> 
+                    <div class="text-center mt-5">
+                        <img src="../slike/vulco-logo.png" alt="vulco-logo" style="max-width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Usluge -->
+        <div class="container" id="uslugePage" style="margin-top: 75px;" >
+            <div class="container-fluid" style="color: #161616; padding-bottom: 75px;">
+                <div class="row gap-5 mt-4 mb-4 justify-content-center">
+                    <div class="card col-md-4 col-lg-3 col-xl-3" style = "background-color: #f7f7f7; box-shadow: 0px 1px 10px 0px #f7f7f7;">
+                        <div class="text-center pt-3">
+                            <img src="../slike/ProdajaGuma.png"  alt="ikonica" height="64px" width="64px">
+                        </div>
+                        <div class="card-body text-center" style="color: #161616;">
+                            <h5 class="card-title text-center" style="font-weight: 600;">Prodaja guma</h5>
+                            <ul class="list-group list-group-flush text-start mt-4">
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Širok asortiman guma</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Obezbeđivanje visokog kvaliteta</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Pružanje pouzdanosti</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="card col-md-4 col-lg-3 col-xl-3"  style = "background-color: #f7f7f7; box-shadow: 0px 1px 10px 0px #f7f7f7;">
+                        <div class="text-center pt-3">
+                            <img src="../slike/Vulkanizer.png"  alt="ikonica" height="64px" width="64px">
+                        </div>
+                        <div class="card-body text-center" style="color: #161616;">
+                            <h5 class="card-title text-center" style="font-weight: 600;">Vulkanizer</h5>
+                            <ul class="list-group list-group-flush text-start mt-4">
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Montaža / Demontaža</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Balansiranje</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Popravke guma ...</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-4 col-lg-3 col-xl-3" style = "background-color: #f7f7f7; box-shadow: 0px 1px 10px 0px #f7f7f7;">
+                        <div class="text-center pt-3">
+                            <img src="../slike/AluFelne.png"  alt="ikonica" height="64px" width="64px">
+                        </div>
+                        <div class="card-body text-center" style="color: #161616;">
+                            <h5 class="card-title text-center" style="font-weight: 600;">Alu-Felne</h5>
+                            <ul class="list-group list-group-flush text-start mt-4">
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Prodaja Alu-Felni</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Ispravljanje Alu-Felni</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Visok kvalitet</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-4 col-lg-3 col-xl-3"  style = "background-color: #f7f7f7; box-shadow: 0px 1px 10px 0px #f7f7f7;">
+                        <div class="text-center pt-3">
+                            <img src="../slike/Akumilatori.png"  alt="ikonica" height="64px" width="64px">
+                        </div>
+                        <div class="card-body text-center" style="color: #161616;">
+                            <h5 class="card-title text-center" style="font-weight: 600;">Akumilatori</h5>
+                            <ul class="list-group list-group-flush text-start mt-4">
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Širok asortiman akumulatora</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Sigurnost za vaše vozilo</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Vrhunski kvalitet akumulatora</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-4 col-lg-3 col-xl-3" style = "background-color: #f7f7f7; box-shadow: 0px 1px 10px 0px #f7f7f7;">
+                        <div class="text-center pt-3">
+                            <img src="../slike/Senzor.png"  alt="ikonica" height="64px" width="64px">
+                        </div>
+                        <div class="card-body text-center" style="color: #161616;">
+                            <h5 class="card-title text-center" style="font-weight: 600;">TPMS<br>(Senzori Pritiska Ventila)</h5>
+                            <ul class="list-group list-group-flush text-start mt-4">
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Prodaja</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Servisiranje</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;">Održavanje sigurnosti pneumatika</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Vodic za pneumatike -->
+        <div class="container" id="vodicPage"  style="margin-top: 75px;">
+            <div class="container-fluid p-0" style="color: #f7f7f7;">
+                <div class="glass p-5" style="box-shadow: 0px 1px 10px 0px #161616; color: #f7f7f7;">
+
+                    <ul class="nav nav-underline justify-content-center gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link custom-tag-active" aria-current="page" href="#vodic" id="tab-vrsta-pneumatika" style="color:#969696;">Vrste pneumatika</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#vodic" id="tab-dimenzija-pneumatika" style="color:#969696;">Dimenzije pneumatika</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#vodic" id="tab-dubina-sare" style="color:#969696;">Dubina šare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#vodic" id="tab-dodatne-oznake" style="color:#969696;">Dodatne oznake na pneumatiku</a>
+                        </li>
+                    </ul>
+
+                    <div class="mt-5" id="vrste-pneumatika">
+
+                        <div id="letnje-gume" class="row">
+                            <div class="col">
+                                <h4 class="text-center" style="font-weight: 600;">Letnje Gume</h4>
+                                <p class ="mt-4">
+                                    Letnje gume su namenjene za upotrebu u toplijim vremenskim uslovima i obezbeđuju optimalno prianjanje na suvim i mokrim putevima.                                            
+                                </p>
+
+                                <h5 class="text-start mt-4" style="font-weight: 500;">Prednosti</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Odlično prianjanje na suvim putevima, pružajući bolje kočenje i upravljivost.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Efikasno odvodnjavanje vode sa površine pneumatika, poboljšavajući stabilnost na mokrim putevima.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Smanjena potrošnja goriva zbog manjeg otpora kotrljanja.</li>
+                                </ul>
+
+                                <h5 class="text-start mt-5" style="font-weight: 500;">Pravilno korišćenje</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Letnje gume se preporučuju za vožnju tokom toplijih meseci godine kada temperatura nije niža od 7°C.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Nisu pogodne za vožnju po snegu i ledu.</li>
+                                </ul>
+                            </div>
+
+                            <div class="col text-center mt-5 mb-5">
+                                <img src="../slike/Letnji_Pneumatik.png" alt="letnja guma slika">
+                            </div>
+
+                        </div>
+
+                        <div id="zimske-gume" class="row">
+                            <div class="col">
+                                <h4 class="text-center" style="font-weight: 600;">Zimske Gume</h4>
+                                <p class ="mt-4">
+                                    Zimske gume su posebno dizajnirane za vožnju u hladnim i snežnim uslovima, pružajući poboljšano prianjanje i upravljivost.
+                                </p>
+
+                                <h5 class="text-start mt-4" style="font-weight: 500;">Prednosti</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Bolje prianjanje na snegu i ledu, omogućavajući sigurnije kočenje i skretanje.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Elastičnost gume pri niskim temperaturama, održavajući optimalnu stabilnost i performanse.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Dublje šare i lamelirani dezeni za efikasno izbacivanje snega i sprečavanje akvaplaninga.</li>
+                                </ul>
+
+                                <h5 class="text-start mt-5" style="font-weight: 500;">Pravilno korišćenje</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Zimske gume se preporučuju tokom zimskih meseci kada je temperatura niža od 7°C.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Posebno pri vožnji po snegu, ledu i zaleđenim površinama.</li>
+                                </ul>
+                            </div>
+                            
+
+                            <div class="col text-center mt-5 mb-5">
+                                <img src="../slike/Zimski_Pneumatik.png" alt="vulco-logo">
+                            </div>
+
+                        </div>
+
+                        <div id="4season-gume" class="row">
+                            <div class="col">
+                                <h4 class="text-center" style="font-weight: 600;">All-Season Gume</h4>
+                                <p class ="mt-4">
+                                    All-season gume su dizajnirane da pruže zadovoljavajuće performanse tokom cele godine u različitim vremenskim uslovima.
+                                </p>
+
+                                <h5 class="text-start mt-4" style="font-weight: 500;">Prednosti</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Pogodne za upotrebu u umerenim klimatskim uslovima sa blagim zimama.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Solidno prianjanje na suvim i mokrim putevima.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Pristojne performanse na blagom snegu i ledu.</li>
+                                </ul>
+
+                                <h5 class="text-start mt-5" style="font-weight: 500;">Pravilno korišćenje</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">All-season gume su pogodne za vozače koji žive u regionima sa umerenom klimom i koji ne doživljavaju ekstremno hladne zime ili obilne snežne padavine.</li>
+                                </ul>
+                            </div>
+
+                            <div class="col text-center mt-5 mb-5">
+                                <img src="../slike/4Seasson_Pneumatik.png" alt="4season guma slika">
+                            </div>
+                        </div>
+
+                        <nav>
+                            <ul class="pagination pagination-sm justify-content-center glass-pagination">
+                                <li class="page-item active" id="pag-letnje-gume"><a class="page-link" href="#vodic">1</a></li>
+                                <li class="page-item" id="pag-zimske-gume"><a class="page-link" href="#vodic">2</a></li>
+                                <li class="page-item" id="pag-4season-gume"><a class="page-link" href="#vodic">3</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="mt-5" id="dimenzije-pneumatika">
+
+                        <h5 class="text-start mt-4" style="font-weight: 500;">Širina pneumatika</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;"><strong>275</strong> označava širinu pneumatika u milimetrima.</li>
+                            <li class="mt-1" style="list-style-type: circle;">Širina se meri od ivice bočnog zida do ivice bočnog zida pneumatika.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">Visina pneumatika</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Visina pneumatika je odnos visine bočnog zida pneumatika prema širini pneumatika.</li>
+                            <li class="mt-1" style="list-style-type: circle;">Obično je izražena u procentima, a primer, ako je širina pneumatika 275 mm, a visina 35, to znači da je visina 35% od širine.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">Prečnik felne</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Prečnik felne <strong>19</strong> je merenje unutrašnjeg prečnika felne na koju će pneumatik biti montiran.</li>
+                            <li class="mt-1" style="list-style-type: circle;">Meri se u inčima.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">Indeks nosivosti (npr. 82)</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Indeks nosivosti označava maksimalno opterećenje koje pojedinačni pneumatik može izdržati.</li>
+                            <li class="mt-1" style="list-style-type: circle;">Indeks nosivosti ima svoje numeričke vrednosti, a svaka vrednost odgovara određenom opterećenju.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">Indeks brzine (npr. H)</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Indeks brzine označava maksimalnu brzinu koju pneumatik može izdržati pod optimalnim uslovima.</li>
+                            <li class="mt-1" style="list-style-type: circle;">Indeks brzine takođe ima svoje oznake, koje su povezane sa određenim brzinama.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mt-5" id="dubina-sare">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h5 class="text-start mt-4" style="font-weight: 500; margin-top: 50px;">Minimalna dozvoljena dubina šare</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Postoji minimalna dozvoljena dubina šare koju pneumatik treba da ima kako bi bio siguran i zadovoljio propise.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Ova minimalna dubina šare može se razlikovati u zavisnosti od zemlje i lokalnih propisa, ali često se smatra da je minimalna dubina šare 1.6 mm.</li>
+                                </ul>
+
+                                <h5 class="text-start mt-5" style="font-weight: 500;">Važnost dubine šare</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Dubina šare ima direktni uticaj na prianjanje pneumatika na putu.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Pneumatici sa dubljom šarom imaju bolje prianjanje na mokrom i klizavom terenu, što doprinosi većoj bezbednosti pri vožnji.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Dublja šara takođe može poboljšati performanse pneumatika u pogledu kočenja, upravljivosti i stabilnosti vozila.</li>
+                                </ul>
+
+                                <h5 class="text-start mt-5" style="font-weight: 500;">Provera dubine šare</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Dubinu šare možete proveriti pomoću posebnih uređaja za merenje dubine šare ili pomoću specijalnih markera na pneumaticima koji pokazuju nivo habanja šare.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Takođe se preporučuje redovno vizuelno proveravanje stanja šare na pneumaticima radi otkrivanja eventualnih oštećenja ili neujednačenog habanja.</li>
+                                </ul>
+
+                                <h5 class="text-start mt-5" style="font-weight: 500;">Zamena pneumatika</h5>
+                                <ul>
+                                    <li class="mt-1" style="list-style-type: circle;">Kada dubina šare dostigne ili padne ispod minimalne dozvoljene vrednosti, pneumatici se smatraju habanima i treba ih zameniti.</li>
+                                    <li class="mt-1" style="list-style-type: circle;">Zamena pneumatika sa adekvatnom dubinom šare je važna za održavanje bezbednosti i performansi vozila.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>           
+                    
+                    <div class="mt-5" id="dodatne-oznake">
+                        <h5 class="text-start" style="font-weight: 500; margin-top: 50px;">M+S ili M/S</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Oznaka M+S (ili M/S) na pneumaticima označava da su namenjeni za vožnju u blatu i snegu.</li>
+                            <li class="mt-1" style="list-style-type: circle;">Pneumatici sa ovom oznakom imaju bolje prianjanje i vuču na klizavom terenu, što je posebno važno u zimskim uslovima.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">3PMSF</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Oznaka 3PMSF (Three-Peak Mountain Snowflake) predstavlja simbol snežne pahuljice unutar planinskog vrha.</li>
+                            <li class="mt-1" style="list-style-type: circle;">To omogućava vozaču da nastavi vožnju i stigne do sigurne lokacije radi zamene pneumatika.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">Run Flat</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Oznaka Run Flat ukazuje da je pneumatik dizajniran da može da se vozi i nakon gubitka pritiska vazduha sledećih 200km uz maksimalnu brzinu 80km/h.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">XL ili Reinforced</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">Oznake XL (Extra Load) ili Reinforced ukazuju da su pneumatici ojačani kako bi podneli veće opterećenje u odnosu na standardne pneumatike istih dimenzija.</li>
+                            <li class="mt-1" style="list-style-type: circle;">Ove oznake su često prisutne na pneumaticima za teretna vozila ili vozila koja često prevoze teže terete.</li>
+                        </ul>
+
+                        <h5 class="text-start mt-5" style="font-weight: 500;">DOT oznaka</h5>
+                        <ul>
+                            <li class="mt-1" style="list-style-type: circle;">DOT (Department of Transportation) oznaka je broj koji prati svaki pneumatik i označava da je pneumatik ispunio određene standarde bezbednosti i kvaliteta propisane od strane američkog Ministarstva saobraćaja.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Kontakt  -->
+        <div class="container" id="kontaktPage" style="margin-top: 100px;">
+            <div class="container-fluid" style="box-shadow: 0px 1px 10px 0px #161616;">
+                <div class="row">
+                    <div class="card col-auto" style="background-color: #f7f7f7; width: 100%;">
+                        <iframe class="pt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.840826867207!2d22.5292646!3d44.2326396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4753954e41a3c557%3A0xbc4ec40fc9a523c7!2sAuto%20centar%20%E2%80%9EAdamovi%C4%87%E2%80%9C!5e0!3m2!1sen!2srs!4v1623025717749!5m2!1sen!2srs" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <div class="card-body text-center">
+                            <ul class="list-group list-group-flush text-start pt-3">
+                                <li class="list-group-item" style="background-color: #f7f7f7;"><strong>Adresa:</strong> Miomira Radosavljevića Pikija 10, 19300 Negotin</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;"><strong>Radno vreme:</strong> Ponedeljak - Petak: 8:30h - 17h, Subota: 8:30h - 15h</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;"><strong>Telefon/Fax:</strong> +381 (0) 19 545-007</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;"><strong>Mobilni:</strong> +381 (0) 63 11-27-982</li>
+                                <li class="list-group-item" style="background-color: #f7f7f7;"><strong>Email:</strong> adamovicgume@open.telekom.rs</li>
+                            </ul>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="glass-navbar m-0">
+        <div class="container p-5">
+            <div class="row gap-3 align-items-center justify-content-center" style="color: #f7f7f7;">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 col-xxl-4">
+                    <p class="logo-name">
+                        Auto Centar Adamović
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 col-xxl-3 text-start">
+                    <p> Adresa: <br> Miomira Radosavljevića Pikija 10 <br> 19300 Negotin</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-2  col-xxl-2 text-start">
+                    <p> Mobilni / Fax:<br>+381 (0) 63 11-27-982<br>+381 (0) 19 545-007 </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-2  col-xxl-2 text-start">
+                    <p>Email: <br> adamovicgume@open.telekom.rs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script>
+    // One page 
+    const oNamaLink = document.getElementById("oNamaLink");
+    const uslugeLink = document.getElementById("uslugeLink");
+    const vodicLink = document.getElementById("vodicLink");
+    const kontaktLink = document.getElementById("kontaktLink");
+
+    const oNamaPage = document.getElementById('oNamaPage');
+    const uslugePage = document.getElementById('uslugePage');
+    const vodicPage = document.getElementById('vodicPage');
+    const kontaktPage = document.getElementById('kontaktPage');
+
+    uslugePage.classList.add('hide')
+    vodicPage.classList.add('hide')
+    kontaktPage.classList.add('hide')
+
+
+    oNamaLink.addEventListener('click', ()=> {
+        oNamaPage.classList.remove('hide')
+        uslugePage.classList.add('hide')
+        vodicPage.classList.add('hide')
+        kontaktPage.classList.add('hide')
+    });
+
+    uslugeLink.addEventListener('click', ()=> {
+        oNamaPage.classList.add('hide')
+        uslugePage.classList.remove('hide')
+        vodicPage.classList.add('hide')
+        kontaktPage.classList.add('hide')
+    });
+
+    vodicLink.addEventListener('click', ()=> {
+        oNamaPage.classList.add('hide')
+        uslugePage.classList.add('hide')
+        vodicPage.classList.remove('hide')
+        kontaktPage.classList.add('hide')
+        vodicInit();
+    });
+
+    kontaktLink.addEventListener('click', () =>{
+        oNamaPage.classList.add('hide')
+        uslugePage.classList.add('hide')
+        vodicPage.classList.add('hide')
+        kontaktPage.classList.remove('hide')
+    });
+
+
+    //Ovo je za vodicPage 
+
+    function vodicInit(){
+        const tabVrstaPneumatika = document.getElementById('tab-vrsta-pneumatika')
+
+        const vrstePneumatika = document.getElementById('vrste-pneumatika')
+
+        const divLetnjeGume = document.getElementById('letnje-gume');
+        const divZimskeGume = document.getElementById('zimske-gume');
+        const div4SeasonGume = document.getElementById('4season-gume');
+
+        const pagLetnjeGume = document.getElementById('pag-letnje-gume');
+        const pagZimskeGume = document.getElementById('pag-zimske-gume');
+        const pag4seasonGume = document.getElementById('pag-4season-gume');
+
+        
+        const tabDimenzijaPneumatika = document.getElementById('tab-dimenzija-pneumatika')
+        const dimenzijePneumatika = document.getElementById('dimenzije-pneumatika')
+
+
+        const tabDubinaSare= document.getElementById('tab-dubina-sare')
+        const dubinaSare= document.getElementById('dubina-sare')
+
+        const tabDodatneOznake = document.getElementById('tab-dodatne-oznake')
+        const dodatneOznake = document.getElementById('dodatne-oznake')
+        
+        divLetnjeGume.classList.remove('hide')
+        divZimskeGume.classList.add('hide')
+        div4SeasonGume.classList.add('hide')
+        
+        vrstePneumatika.classList.remove('hide')
+        dimenzijePneumatika.classList.add('hide')
+        dubinaSare.classList.add('hide')
+        dodatneOznake.classList.add('hide')
+
+
+        tabVrstaPneumatika.addEventListener('click', ()=>{
+            vrstePneumatika.classList.remove('hide')
+            dimenzijePneumatika.classList.add('hide')
+            dubinaSare.classList.add('hide')
+            dodatneOznake.classList.add('hide')
+
+            tabVrstaPneumatika.classList.add('custom-tag-active')
+            tabDimenzijaPneumatika.classList.remove('custom-tag-active')
+            tabDubinaSare.classList.remove('custom-tag-active')
+            tabDodatneOznake.classList.remove('custom-tag-active')
+        });
+
+        tabDimenzijaPneumatika.addEventListener('click', ()=>{
+            vrstePneumatika.classList.add('hide')
+            dimenzijePneumatika.classList.remove('hide')
+            dubinaSare.classList.add('hide')
+            dodatneOznake.classList.add('hide')
+
+            tabVrstaPneumatika.classList.remove('custom-tag-active')
+            tabDimenzijaPneumatika.classList.add('custom-tag-active')
+            tabDubinaSare.classList.remove('custom-tag-active')
+            tabDodatneOznake.classList.remove('custom-tag-active')
+        });
+
+        tabDubinaSare.addEventListener('click', () => {
+            vrstePneumatika.classList.add('hide')
+            dimenzijePneumatika.classList.add('hide')
+            dubinaSare.classList.remove('hide')
+            dodatneOznake.classList.add('hide')
+
+            tabVrstaPneumatika.classList.remove('custom-tag-active')
+            tabDimenzijaPneumatika.classList.remove('custom-tag-active')
+            tabDubinaSare.classList.add('custom-tag-active')
+            tabDodatneOznake.classList.remove('custom-tag-active')
+        })
+
+        tabDodatneOznake.addEventListener('click',()=>{
+            vrstePneumatika.classList.add('hide')
+            dimenzijePneumatika.classList.add('hide')
+            dubinaSare.classList.add('hide')
+            dodatneOznake.classList.remove('hide')
+
+            tabVrstaPneumatika.classList.remove('custom-tag-active')
+            tabDimenzijaPneumatika.classList.remove('custom-tag-active')
+            tabDubinaSare.classList.remove('custom-tag-active')
+            tabDodatneOznake.classList.add('custom-tag-active')
+        });
+
+        pagLetnjeGume.addEventListener('click', () =>{
+            divLetnjeGume.classList.remove('hide')
+            divZimskeGume.classList.add('hide')
+            div4SeasonGume.classList.add('hide')
+
+            pagLetnjeGume.classList.add('active')
+            pagZimskeGume.classList.remove('active')
+            pag4seasonGume.classList.remove('active')
+
+        });
+
+        pagZimskeGume.addEventListener('click', () =>{
+            divLetnjeGume.classList.add('hide')
+            divZimskeGume.classList.remove('hide')
+            div4SeasonGume.classList.add('hide')
+
+            pagLetnjeGume.classList.remove('active')
+            pagZimskeGume.classList.add('active')
+            pag4seasonGume.classList.remove('active')
+        });
+
+        pag4seasonGume.addEventListener('click', () =>{
+            divLetnjeGume.classList.add('hide')
+            divZimskeGume.classList.add('hide')
+            div4SeasonGume.classList.remove('hide')
+
+            pagLetnjeGume.classList.remove('active')
+            pagZimskeGume.classList.remove('active')
+            pag4seasonGume.classList.add('active')
+        });
+    }
+
+
+
+</script>
+</html>
